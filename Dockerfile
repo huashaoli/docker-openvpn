@@ -4,6 +4,9 @@
 FROM debian:stretch
 
 LABEL Fork from "Kyle Manna <kyle@kylemanna.com>"
+### add by me
+mkdir /etc/apk/repositories
+###
 
 # Testing: pamtester
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories && \
