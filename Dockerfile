@@ -5,7 +5,7 @@ FROM debian:stretch
 
 LABEL Fork from "Kyle Manna <kyle@kylemanna.com>"
 ### add by me
-mkdir /etc/apk/repositories
+mkdir -p /etc/apk/repositories
 ###
 
 # Testing: pamtester
